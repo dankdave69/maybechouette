@@ -8,9 +8,7 @@
 // @grant        none
 // ==/UserScript==
 
-function changeBody() {
+setInterval(function changeBody() {
         var body = document.getElementsByTagName("body")[0];
         body.style.overflow = "visible";
-    }
-
-changeBody();
+    }, 0);
