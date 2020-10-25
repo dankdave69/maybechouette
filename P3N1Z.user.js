@@ -11,6 +11,7 @@
 function changeBody() {
         var body = document.getElementsByTagName("body")[0];
         body.style.overflow = "visible";
+        document.getElementsByClassName('RnEpo  _Yhr4')[0].remove()
     }
 
 changeBody();
